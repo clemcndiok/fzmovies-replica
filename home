@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fzmovies movies replica</title>
+</head>
+<header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="top">
+        <p align="center" ><img src="fz movies.png" alt="fzmovieslogo" width="300px" height="80px"></p>
+         <hr width="50%"/>
+        <p align="center"><button class="topbutton">Back</button> <button class="topbutton">Recently Browsed</button> <button class="topbutton">Sign in</button></p>
+    </div>
+</header>
+<style>
+   .logo{
+       padding:8px;
+   }
+   .containerdiv{
+       background-color:rgb(226, 226, 226);
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+   }
+   .top{
+       background-color: #d9e2e2;
+       padding: 2px;
+   }
+   .topbutton{
+       background-color: hsla(209, 92%, 50%, 0.719);
+       color:#ffffff;
+       padding: 10px;
+       border-style: none;
+   }
+   }
+   .searchdiv{
+       border-style: solid;
+       border-width: 2px;
+       padding:20px;
+       margin-top: 20px;
+   }
+ 
+   #search{
+       background-color: #dddddd;
+       border-style: solid;
+       border-radius: 2px;
+       width: 800px;
+       height: 35px;
+       border-width: 1px;
+
+   }
+   .buttonsearch{
+       background-color: #278227;
+       padding: 12px;
+       border: none;
+       color: #ffffff;
+       border-radius: 2px;
+       width: 85px;
+
+   }
+   .buttoncontent{
+       background-color: rgb(0, 107, 0);
+       border-style: none;
+       color: #ffffff;
+       padding: 3px;
+   }
+   .contentdiv{
+       background-color: #afacac;
+       padding: 1px;
+       margin-top: 10px;
+       font-size: 12px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .fa-telegram{
+       background-color: #afacac;
+       color: #4848ff;
+       font-size: 30px;
+     }
+     .fa-instagram{
+         color: rgba(218, 0, 44, 0.774);
+         font-size: 30px;
+     }
+     .fa-twitter{
+         color: white;
+         background-color: #4848ff;
+         font-size: 30px;
+         border-radius: 15px;
+     }
+     .Headersdiv{
+         background-color: rgba(78, 148, 253, 0.87);
+         margin-top: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 13px;
+         border-radius: 3px;
+         padding-left: 0px;
+         padding-top: 1px;
+         padding-right: 0px;
+         padding-bottom: 1px;
+     }
+     .subcontentdiv4{
+         background-color: #ffffff;
+         padding-left: 30px;
+         padding-top: 1px;
+         padding-right: 0px;
+         border-radius: 5px;
+     }
+     .subcontentdiv44{
+        background-color: #ffffff;
+         padding-left: 30px;
+         padding-top: 1px;
+         padding-right: 0px;
+         border-radius: 5px; 
+     }
+  
+     .contentdiv3{
+         font-size: 12px;
+         line-height: 25px;
+         font-weight: bold;
+
+     }
+     .contentdiv6{
+        background-color:rgba(78, 148, 253, 0.87);
+        padding-left: 0px;
+        padding-top: 1px;
+        padding-right: 0px;
+        padding-bottom: 1px;
+        border-radius: 2px;
+       
+     }
+     .subcontentdiv5{
+        background-color: #ffffff;
+         padding-left: 30px;
+         padding-top: 1px;
+         padding-right: 0px;
+         border-radius: 5px; 
+         font-size: 12px;
+         padding:10px;
+         font-weight:bold;
+       
+     }
+     .subcontentdiv6{
+        background-color: #ffffff;
+         padding-left: 30px;
+         padding-top: 1px;
+         padding-right: 0px;
+         border-radius: 5px;  
+     }
+     .subcontentdiv7{
+        background-color: #ffffff;
+         padding-left: 30px;
+         padding-top: 1px;
+         padding-right: 0px;
+         border-radius: 5px; 
+     }
+     .contentdiv8{
+        background-color:rgba(78, 148, 253, 0.87);
+        padding-left: 0px;
+        padding-top: 1px;
+        padding-right: 0px;
+        padding-bottom: 1px;
+        border-radius: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     .footerdiv{
+        background-color:rgba(252, 192, 252, 0.87);
+        padding-left: 0px;
+        padding-top: 1px;
+        padding-right: 0px;
+        padding-bottom: 1px;
+        border-radius: 2px;
+        margin-top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        word-spacing:5px;
+     }
+     #fzmoviesadd1{
+         margin-top: 30px;
+     }
+     
+     @media screen and (max-width:800px){#search{
+         width:70%;
+     }
+    }
+</style>
+     <script>
+        function show(){
+            alert("hello there");
+        }
+        function loading(){
+            alert("hi welcome to the body of my page");
+        }
+        function onunload(){
+            alert("thanks");
+        }
+    </script>
+
+<body onload="loading()"  onunload="unloading()">
+    <div class="containerdiv">
+    <div class="searchdiv">
+    <form align="center">
+        <input id="search" name="text" type="text"> <button class="buttonsearch" onclick="show()">Search</button> <br />
+        <i><ins>By</ins></i> <input type="radio" name="text">movie name <input type="radio" name="text"> Director <input type="radio" name="text">Starcast<hr/><p>
+        <i><ins>in</ins></i> <input type="radio" name="text"> All <input type="radio" name="text">B'wood <input type="radio" name="text">H'wood <input type="radio" name="text">Dubbed </p>
+        <p align="center"><a href="#">(Advanced search)</a></p>
+    </form>
+    </div>
+    <div class="contentdiv">
+        <ul>
+           <li><a href="https://audiomack.com/">Download heismk music on audio mack</a> <button class="buttoncontent" >subscribe</button></li>
+           <li>Dont have a specific movie in mind? Try the personalized <a href="#">movie recommender</a></li>
+           <li>Watch the latest episodes of <a href="#">Mr. Mercedes - MobileTVshows - TV shows</a></li>
+           <li>Need Help? Email us at <a href="#">support@fzmovies.net </a>along with a <ins>screenshot of the error.</ins><br />Advertisement proposals: <a href="#">advertisement@fzmovies.net</a></li>
+           <li>Follow us on social media for latest updates<br />
+                <i class="fa fa-fw fa-telegram icon"></i>
+                <i class="fa fa-fw fa-instagram icon"></i>
+                <i class="fa fa-fw fa-twitter icon"></i>
+              </li>
+           
+        </ul>
+    </div>
+    <img id="fzmoviesadd1" src="fzadd1.jpg" alt="this is a vpn add">
+    <div class="Headersdiv">
+        <p align="center"><a href="#"><b>(Hollywood Movies)</b></a><br/>(<a href="#"><i>What are people watching right now?</i></a>)</p>
+    </div>
+    <div class="contentdiv3">
+        <div class="contentdiv4">
+            <ol>
+                <li><a href="#">IMDB Top 250 movies</a></li>
+                <li><a href="#">Oscars Winners</a></li>
+                <li><a href="#">Famous Sequels</a></li>
+                <li><a href="#">Genres | Other Tags</a></li>
+                <li><a href="#">By Latest Updated</a>
+            <div class="subcontentdiv4">
+                <p><a href="#">No No A Documentary </a> WEB-DL<br />
+                 <a href="#">Boy Interrupted</a> WEB-DL<br />
+                 <a href="#">No Turning Back 2014 </a> BluRay<br />
+                 <a href="#">The Gruffalos Child</a> BluRay<br />
+                 <a href="#">The Gruffalos Child</a> BluRay<br />
+                 <a href="#">Batman The Long Halloween Part One</a> BluRay
+                </p>
+            </div></li>
+                <li><a href="#">By Release Date</a>
+            <div class="subcontentdiv44">
+                <p><a href="#">Batman The Long Halloween Part One</a>BluRay<br />
+                 <a href="#">Fatherhood</a>WEB-DL<br />
+                 <a href="#">Girl Next</a>WEB-DL<br />
+            </div>
+                </li>
+                <li><a href="#">IMDB Rating</a></li>
+                <li><a href="#">By Alpha</a></li>
+                <li><a href="#">By Most Downloaded</a></li>
+                <li><a href="#">Famous Movie Quotes</a></li>
+                <li><a href="#">User Generated Movie Lists</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="Headersdiv">
+        <p align="center"><a href="#"><b>(Bollywood Movies)</b></a><br/>(<a href="#"><i>What are people watching right now?</i></a>)</p>
+    </div>
+    <div class="contentdiv5">
+        <ol>
+            <li><a href="#">Filmfare Awarded Movies</a></li>
+            <li><a href="#">By Latest Updated</a><br />
+        <div class="subcontentdiv5">
+            <p><a href="#">Sherni</a> WEBRip<br />
+               <a href="#">Shaadisthan</a> WEB-DL<br />
+               <a href="#">Antenna</a> WEB-DL<br />
+               <a href="#">Forensic </a> WEBRip<br />
+               <a href="#">Taxi No 9 2 11 Nau Do Gyarah</a> WEB-DL<br />
+            </p>
+        </div>
+            </li>
+            <li><a href="#">By Release Date</a><br>
+        <div class="subcontentdiv6">
+            <p><a href="#">Sherni</a> WEBRip<br />
+               <a href="#">Shaadisthan </a> WEB-DL<br />
+               <a href="#">Sardar Ka Grandson </a> WEBRip
+            </p>
+        </div>
+            </li>
+            <li><a href="#">IMDB Rating</a></li>
+            <li><a href="#">By Alpha</a></li>
+            <li><a href="#">By Most Downloaded</a></li>
+        </ol>
+    </div>
+    <div class="contentdiv6">
+        <p align="center"><a href="#"><b>Hollywood Dubbed Movies</b></a></p>
+    </div>
+    <div class="contentdiv7">
+        <ol>
+         <li><a href="#">By Latest Updated</a>
+    <div class="subcontentdiv7">
+        <p><a href="#">The Fox and the Hound [Hindi]</a> BluRay<br />
+           <a href="#">100 Million BC [Hindi]</a> BluRay<br />
+           <a href="#">The Art of Self Defense [Hindi] </a>WEB-DL<br /></p>
+    </div></li>
+         <li><a href="#">By Release Date</a></li>
+         <li><a href="#">By Alpha</a></li>
+        </ol>
+    </div>
+    <div class="contentdiv8">
+        <p align="center"><a href="#">FzExtras - Enjoy movie based games, quizzes, jigsaws</a> | Now create a jigsaw from your <a href="#">own face</a></p>
+    </div>
+    <div class="footerdiv">
+        <p align="center"><a href="#">Contact Us  - Downloading Help  -  Subtitles  -  Quality Types  -  F.A.Q.</a></p>
+    </div>
+</div>
+</body>
+</html>
